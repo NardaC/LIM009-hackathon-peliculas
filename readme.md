@@ -1,96 +1,73 @@
-# "Hackathon" de final de _Common Core_, películas
+# Vengies
 
-## Índice
+## Definición del producto
 
-* [Preámbulo](#preámbulo)
-* [Resumen del proyecto](#resumen-del-proyecto)
-* [Consideraciones generales](#consideraciones-generales)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Parte obligatoria](#parte-obligatoria)
-* [Consideraciones técnicas](#consideraciones-técnicas)
+Cada día es un día menos de espera para el estreno de la última película de Avengers: Endgame. Y así como las cifras en la venta de entradas demuestran cuánto cariño se le tiene a nuestros héroes de Marvel; Vengies busca crear una plataforma donde fans, curiosxs y/o lxs que no, puedan relacionarse 100% con todas las de Marvel desde un punto de vista más crítico. De esta manera, decide o no darle una (segunda) oportunidad a la película; además que formamos comunidad mientras esperamos el siguiente estreno y estamos al tanto en todo lo informativo para renovar nuestra página de inicio.
 
- ***
+## Historias de usuario
 
-## Preámbulo
+```plain
+Historia 1:
+* Como : consumidor de películas de Marvel
+  Quiero: un home que esté tras el paso al estreno de Endgame (que muestre fecha de estreno, trailers, algún blog acerca del tema con teorías, espectativas o similares, fotos, etc).
+  Para: sentirne informadx de la razón principal de la página ni bien ingrese a la página.
+  ```
 
-Con la aparición de plataformas para ver películas en la nube, como Netflix o
-Hulu, ver películas desde donde estés, comiendo lo que quieras
-(sin tener que pagar precios ridículos por pop-corn / pipoca / palomitas /
-canchita / cabritas), parando si es necesario, teniendo acceso a una cantidad
-abrumadora de películas... ha cambiado la experiencia del usuario
-y modificado el mercado de las películas a nivel global.
+  ```plain
+  Historia 2:
+ * Como: consumidor pasivo de productos de Marvel
+   Quiero: poder visualizar todas las películas en orden de estreno por año
+   Para: ponerme al día con todas las películas de Marvel en orden de año antes del estreno.
+   ```
 
- ![Pelis](https://media.giphy.com/media/NipFetnQOuKhW/giphy.gif)
+   ```plain
+   Historia 3:
+*  Como: vago conocedor del mundo Marvel
+   Quiero: tener información abreviada y consisa de cada película (título, año, duración, nominaciones, puntuación, trama, actores, etc).
+   Para: evaluarla si verla o no.
+ ```
 
-## Resumen del proyecto
+ ```plain
+ Historia 4:
+*  Como: conocedor promedio de las películas de Marvel
+ Quiero: poder clasificar las películas por 'película Avengers' (que se refiere a varios personajes juntos en una película), 'película individual de cada avenger' (que se refiere al enfoque individual de cada personaje en cada película que lleva exclusivamente el nombre del personaje) 'película de los guardianes de la galaxia' (que se refiere a todo el conjunto de guardianes, ambas películas)
+ Para: visualizar las películas de una forma no integral, para libre forma de reproducción de los mismos.
+```
 
-Durante estos días crearás el producto que tú quieras alrededor del mundo
-de las películas. Puede ser un sitio que hable de las mejores películas
-latinoamericanas, uno que recomiende las películas recién estrenadas en Netflix,
-uno de pelis de terror... o... ¡lo que quieras!
 
-## Consideraciones generales
+## Proceso del diseño de la Interfaz del Usuario
 
-* Este proyecto se debe resolver en equipos de hasta 4 personas.
-* Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
-* Tiempo para completar el reto: 3 días.
-* Habrán dos presentaciones, una a la mitad de la _hackathon_ y otra al final.
+### Descubrimiento e investigación
 
-## Objetivos de aprendizaje
+Con la locura de la última película de Avengers, todo tipo de usuario (consumidor masivo o no de todo Marvel) no está dispuesto a perderse el nuevo tema en boca de todos a nivel global, por lo que una maratón de películas a pocos días del estreno suena a muy buena idea y qué mejor que esta app para animarle a tomar la ruta que desee para pasar por todos los largometrajes.
 
-* Enfrentarte a un reto de corta duración en el que pongas en práctica todo
-lo aprendido hasta ahora.
-* Que sigas desarrollando tus habilidades de trabajo en equipo. Mientras más
-personas en un equipo de trabajo, mayor complejidad para: tener un entendimiento
-común, seguir el flujo de trabajo, buscar consensos, etc.
+### Sintesis y definición
 
-## Parte Obligatoria
+Vengies es una web que permitirá a casi todo tipo de usuario interesado en los films de Marvel, encontrar lo que necesite para animarse a darle play a todas esas películas antecesoras al gran final. Por lo tanto, es una página, principalmente, informativa.
 
-* Todo el planeamiento del trabajo deberá ser detallado en un repositorio único
-por _squad_ en el que se presente el _planning_, el _research_, los _sketches_
-y las inspiraciones utilizadas para definir el producto.
-* Además, deberás detallar en el archivo _readme_, qué hizo cada una en el
-proyecto.
-* El producto deberá presentarse publicado en github pages.
+### Ideación
+#### Prototipo de baja fidelidad:
+Primer Prototipo Desktop:
+![Prototipo de baja en desktop 1](https://i.postimg.cc/WhjmRksz/desk-baja-1.jpg)
+![Prototipo de baja en desktop 2](https://i.postimg.cc/XGd5mVh9/desk-baja-2.jpg)
+![Prototipo de baja en desktop 3](https://i.postimg.cc/XGd5mVh9/desk-baja-3.jpg)
 
-## Consideraciones técnicas
+#### Prototipo de alta fidelidad:
+Primer Prototipo Desktop:
+El prototipado de alta fidelidad fue hecho en figma. Cuenta con un largo proceso de cambios gracias al feedback recibido, pero en los detalles se encuentran las mejoras más significativas.
+![](https://i.postimg.cc/XJqQM5Pq/Desktop-HD.png)
+![](https://i.postimg.cc/9Fk417d1/inicio.png)
+![]()
 
-* El diseño visual de los componentes es de libre elección de las estudiantes,
-sin embargo, si no quieren crearlo desde cero, pueden utilizar el que
-propuso [Walmart](https://drive.google.com/file/d/0B6GBtl-gO6LwaVprQkFqTGI2a28/view).
-* Deberán usar al menos un framework de css.
+### Planificación
+![]()
+![]()
 
-## Reglas de las presentaciones 
+## Tecnologías usadas
 
-* Cada squad tendrá 5 minutos para presentar su demo y 5 minutos para recibir preguntas.
+* Javascript
+* HTML5
+* CSS
+* Bootstrap
 
-* Las personas que presentan en la primera presentación no deben ser las mismas de la presentación final.
 
-## Horario
-
-|       |  Lunes            | Martes                       | Miércoles                     | 
-|------ | ------------------| ---------------------------- | ----------------------------- | 
-| 8:00  | Kick off hackaton | Daily por squad              |   Hackeo                      |      
-| 9:00  | Sesión de planificación  | Hackeo                |   Detalles finales            | 
-| 10:00 | Hackeo            | Compartir link de aplicación | Feria de demostraciones       |
-| 11:00 |                   | Presentación y Feedback      | Presentación de mejores squads|    
-| 12:00 |                   |                              |     Deliberación del jurado   |                                
-|>13:00 |                   |                              |                               |                                
-| 20:00 |                   |                              |                               |                       
-
-## Tips para la organización de trabajo entre UX y Front end 
-
-* Las UX y FE entienden en conjunto el reto en el que van a trabajar, se organizan y arman sus primeros bocetos.
-* Con los primeros bocetos/ideas, las FE pasan a crear su ambiente de desarrollo y a crear componentes atómicos que luego les sea fácil personalizar con CSS y utilizar para crear interfaces más complejas. Además, las FE empiezan también a trabajar en la lógica de la aplicación. Mientras tanto, las UX crean una guía de estilos, los flujos de usuarios, hacen un prototipo más completo y lo testean.
-* Las UX comparten el prototipo testeado, para que el equipo empiece a personalizar los componentes y a ponerlos en conjunto.
-* Las UX hacen QA y testing con los releases que vayan haciendo las FE.
-* Planifiquen, historias de usuario y definition of done son importantísimos.
-* Usen las ceremonias ágiles para saber en que van como equipo, dailys y retrospectivas diarias son esenciales.
-* Iteren, iteren, iteren.
-
-## ¿Qué es la Feria de demos?
-
-La feria de demos se realizará el día de las presentaciones, consiste en la dinámica de “speed dating”, cada squad presentará su demo durante 3 minutos a un grupo de personas, entre ellos los jurados de la Hackathon. Luego de los 3 minutos sonará una chicharra y el grupo de personas rotará al siguiente squad, de esta forma deberán presentar durante una hora. 
-
-* Las demos no deben durar más de 3 minutos y deben mostrar el producto y las tecnologías usadas.
-* Los asistentes van a votar por los 5 equipos finalistas, quienes tendrán la oportunidad de hacer su demo a todo el público para poder elegir un ganador. 
