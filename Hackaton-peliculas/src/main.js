@@ -25,7 +25,7 @@ let showCard=(data)=>{
       }
 
 const showMovie = movies.map((id) =>{
-    fetch('http://www.omdbapi.com/?i='+ id +'&apikey=71fc669b')
+    fetch('https://www.omdbapi.com/?i='+ id +'&apikey=71fc669b')
     .then(res => res.json())
     .then(data =>{
         //console.log(data);
@@ -87,7 +87,7 @@ const showAvengers = arrAvengers.map((id) => {
     let selectYear = document.getElementById('selected_year').value;
     content.innerHTML = "";
     const filter = movies.map((id) =>{
-        fetch('http://www.omdbapi.com/?i='+ id +'&apikey=71fc669b')
+        fetch('https://www.omdbapi.com/?i='+ id +'&apikey=71fc669b')
         .then(res => res.json())
         .then(data =>{
             if (data.Year === selectYear){
