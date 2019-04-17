@@ -53,22 +53,37 @@
   line-height: 38px;
   border-radius: 50%;
 }
-.facebook-bg{
+/* .facebook-bg{
   background: #3B5998;
 }
 .twitter-bg{
   background: #55ACEE;
 }
 .instagram-bg{
-
-
   background: #d6249f;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   box-shadow: 0px 3px 10px rgba(0,0,0,.25);
-
-}
+} */
 footer{
-  background-color: #B83A3A;
+  /* background-color: #B83A3A; */
   color: #e8e8e8;
   clear: both;
+  margin: 0 auto;
+  width: 10%;
+}
+#descripcion{
+    font-size: 20px;
+    /* float: left; */
+    width: 100%;
+    margin: 2%;
+    text-align: center;
+    
+    
+}
+/* #aaa{
+    margin: 0 auto;
+    width: 100%;
+} */
+h1{
+    text-align: center;
 }
